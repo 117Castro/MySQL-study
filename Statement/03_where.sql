@@ -9,3 +9,9 @@ distinct name, age y luego FRON WHERE age = 15, me va mostrar los distintos dato
 con nombres diferentes que tenga 15 años de edad sin repetir datos, no me mostrara dos 
 Carlos que tengan 15 sino solo uno que tenga 15 y del mismo modo con todos los demas nombres 
 diferentes que tenga mi DBS */
+
+/** WHERE se coloca despues del nombre de la tabla seleccionada en la DBS
+    SELECT column1, column2, ...
+    FROM table_name
+    WHERE condition;
+*/
