@@ -1,4 +1,9 @@
-SELECT * FROM users WHERE age LIKE '2_' OR email LIKE '%@gmail.com' AND name_user LIKE 'C%';
+SELECT * FROM users WHERE age LIKE '2_' OR (email LIKE '%@gmail.com' AND name_user LIKE 'C%');
+
+SELECT * FROM users WHERE age LIKE '2_' AND name_user LIKE 'C%';
+
+SELECT * FROM users WHERE age LIKE '2_' OR name_user LIKE 'C%';
+
 
 /** ESTO AHORA ES MAS COMO PROGRAMACION PURA Y DURA, solo debo aplicar la logica que uso con 
 los or y and en js para comprenderlo. */

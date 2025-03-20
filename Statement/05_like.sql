@@ -1,6 +1,6 @@
 SELECT * FROM users;
 
-SELECT * FROM users WHERE email LIKE '%@%';
+SELECT * FROM users WHERE email LIKE '%a%';
 
 SELECT * FROM users WHERE email LIKE '%@%' ORDER BY id_user ASC;
 
