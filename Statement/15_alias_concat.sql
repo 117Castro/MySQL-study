@@ -20,3 +20,14 @@ SELECT CONCAT('Numero de usuario: ', id_user, ' ', name_user, ' ', surname) AS '
 para agragar textos extras y sumado a la sentencia AS puede cambiar el nombre a la columna que se nos presenta
 
 
+
+SELECT CONCAT('Los usuarios son: ', ' ', nombre, ' $', salario) 
+AS 'Empleados y su salario' 
+FROM company.salario_empleados 
+WHERE salario > 40  
+AND salario < 350 
+ORDER BY salario ASC;
+*/
+
+
+
